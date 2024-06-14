@@ -1,3 +1,5 @@
+-- Создают данную таблицу.
+
 CREATE TABLE product_prices (
 	city VARCHAR(100),
 	product VARCHAR,

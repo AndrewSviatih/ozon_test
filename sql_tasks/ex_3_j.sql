@@ -27,7 +27,7 @@ cost_differences AS (
 		cost,
 		(cost - prev_cost) AS cost_change
 	FROM cost_changes
-	WHERE prev_cost IS NOT NULL 
+	WHERE prev_cost IS NOT NULL -- Пропускаем первые вхождения цены
 )
 
 -- находим среднее изменение цены

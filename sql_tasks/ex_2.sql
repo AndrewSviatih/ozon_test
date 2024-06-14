@@ -1,3 +1,5 @@
+-- Заполняют данными из примера.
+
 INSERT INTO product_prices (city, product, cost, date)
 VALUES 
 ('Москва', 'Банан', 55, '2024-01-01'),
