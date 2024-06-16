@@ -8,7 +8,8 @@ FROM (
         product,
         city,
         ROW_NUMBER() OVER (
-			PARTITION BY product ORDER BY cost DESC
+			PARTITION BY product 
+            ORDER BY cost DESC
 		) AS max_cost
     FROM product_prices
 ) 

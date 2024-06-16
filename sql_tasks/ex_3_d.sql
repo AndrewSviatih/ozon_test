@@ -6,7 +6,8 @@ FROM (
 		city, 
 		product,
         ROW_NUMBER() OVER (
-			PARTITION BY city ORDER BY cost DESC
+			PARTITION BY city 
+      ORDER BY cost DESC
 		) AS max_cost
     FROM product_prices
     WHERE date = '2024-01-03'
