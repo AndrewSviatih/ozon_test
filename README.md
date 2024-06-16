@@ -1,8 +1,8 @@
 ## Test task for OZON intership
 
 В папке python_tasks находятся все задания по python. \
-ex_1, ex_2 и т.д. Внутри каждого .py файла есть описание задания.
-*Запускать в python_tasks: python main.py*
+ex_1, ex_2 и т.д. Внутри каждого .py файла есть описание задания. \
+**Запускать в python_tasks: python main.py**
 
 В папке sql_tasks находятся все задания по sql. \
 ex_1, ex_2, ex_3_a, ex_3_b и т.д. \
